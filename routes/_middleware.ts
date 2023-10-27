@@ -1,8 +1,8 @@
 import { MiddlewareHandlerContext } from "$fresh/server.ts";
 
 export async function handler(req: Request, ctx: MiddlewareHandlerContext) {
-  console.log(ctx.destination);
-  console.log(req.url);
+  // console.log(ctx);
+  console.log(req);
   const resp = await ctx.next();
   return resp;
 }
