@@ -14,7 +14,7 @@ export default function Home(props: PageProps) {
   
   
   return (
-    <div class="px-4 py-8 mx-auto bg-[#b0b]">
+    <div class="px-4 py-8 mx-auto bg-[#b0bfff]">
       <div class="max-w-screen-md mx-auto flex flex-col items-center justify-center">
         <IconBrandDeno class="w-40 h-40" />
         {/* <Counter count={count} /> */}
